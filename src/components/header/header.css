@@ -83,6 +83,7 @@ header{
         display: none;
     }
     .me{
-        height: 500px;
+        height: 700px;
+        width: 300px;
     }
 }
