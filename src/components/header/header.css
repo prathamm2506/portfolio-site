@@ -82,4 +82,7 @@ header{
     .header__social,.scroll__down{
         display: none;
     }
+    .me{
+        height: 500px;
+    }
 }
