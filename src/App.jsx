@@ -26,7 +26,7 @@ const App = () => {
       <Contact/>
       <Footer/>
       <Counter/>
-      <TimeLine/>
+      {/* <TimeLine/> */}
     </>
   )
 }
