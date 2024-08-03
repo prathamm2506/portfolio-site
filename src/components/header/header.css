@@ -85,6 +85,6 @@ header{
     .me{
         height: 700px;
         width: 300px;
-        margin: 0 auto;
+        left: calc(50% - 9rem);
     }
 }
