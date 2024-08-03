@@ -20,8 +20,8 @@ const About2 = () => {
 
       <div className="container">
         <div className="maindivabout">
-          <div className="timeline">
-            <h3>Education</h3>
+          <ul className="timeline">
+            {/* <h3>Education</h3>
 
             <div className="timelinecard">
               <div className="cardimg">
@@ -82,9 +82,42 @@ const About2 = () => {
                   through collaborative projects.
                 </p>
               </div>
-            </div>
-            
-          </div>
+            </div> */}
+        {/* <h3 className="pb-8">Education</h3> */}
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">Sept 2023 - June 2026</p>
+                <h3>B.E. Artificial Intelligence and Data Science</h3>
+                <h4>Vivekanand Education Society's Institute of Technology</h4>
+                <p>Currently pursuing BE in AI and DS at VESIT. Applying theoretical knowledge to real-world problems, honing programming skills, and collaborating on impactful projects. Demonstrating adaptability and critical thinking in diverse contexts.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">
+                  Jan 2021 - June 2023
+                </p>
+                <h3>Diploma in Information Technology </h3>
+                <h4>Government Polytechnic Mumbai</h4>
+                <p>
+                Completed Diploma in IT at Government Polytechnic Mumbai. Acquired hands-on skills in programming, networking, and systems analysis. Excelled in team projects, problem-solving, and adapting to emerging technologies.
+                </p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">June 2011 - March 2020</p>
+                <h3>Secondary School Certificate</h3>
+                <h4>Dominic Savio Vidyalaya</h4>
+                <p>
+                  Thrived academically and socially at Dominic Savio Vidyalaya. Demonstrated leadership in student activities, achieved academic excellence, and developed strong interpersonal skills through collaborative projects.
+                </p>
+              </div>
+            </li>
+          </ul>
           <div className="boxybox">
             <div className="onepart">
               <div className="particon">
@@ -102,7 +135,7 @@ const About2 = () => {
               </div>
               <div className="partdata">
                 <h4>Age</h4>
-                <p>19 years</p>
+                <p>20 years</p>
               </div>
             </div>
 
@@ -139,8 +172,8 @@ const About2 = () => {
         </div>
 
         <div className="maindivabout">
-          <div className="timeline">
-            <h3>Work & Experience</h3>
+          <ul className="timeline">
+            {/* <h3>Work & Experience</h3>
 
             <div className="timelinecard">
               <div className="cardimg">
@@ -195,8 +228,46 @@ const About2 = () => {
                   multiple projects.
                 </p>
               </div>
-            </div>
-          </div>
+            </div> */}
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">March 2024 - August 2024</p>
+                <h3>Web Developer Intern</h3>
+                <h4>Rhyno Wheels Private Limited</h4>
+                <p>
+                Crafted the company’s official website, reducing load times by 15%, and leading to improved user engagement. Performed daily tasks including deployment, site optimization, and SEO.
+                </p>
+                <p>Skills - React JS, AWS, SEO.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">
+                  May 2024 - July 2024
+                </p>
+                <h3>R & D Intern</h3>
+                <h4>Indrones Solution Private Limited</h4>
+                <p>
+                Designed and implemented software solutions to enhance drone operations, reducing latency by 50% through streamlining processes. Collaborated with a team to develop applications, contributing to improved operational efficiency. 
+                </p>
+                <p>Skills - Python, Lua, BitBucket, AWS, HTML, CSS, Node JS.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">January 2023 - June 2023</p>
+                <h3>Web Developer Intern </h3>
+                <h4>The Fast Way</h4>
+                <p>
+                Delivered two major web projects, improving site responsiveness and usability by 30%. Implemented full-stack solutions within fast development cycles, getting hands-on experience with industry practices.
+                </p>
+                <p>Skills - HTML, CSS, React JS, PHP, Firebase, MySQL.</p>
+              </div>
+            </li>
+          </ul>
           <div className="boxybox">
             <div className="onepart">
               <div className="particon">

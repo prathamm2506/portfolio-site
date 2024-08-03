@@ -10,6 +10,7 @@ import Contact from './components/contact/Contact.jsx'
 import Footer from './components/footer/Footer.jsx'
 import About2 from './components/about2/About2.jsx'
 import Counter from './components/counter/Counter.jsx'
+import TimeLine from './components/timeline/TimeLine.jsx'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Contact/>
       <Footer/>
       <Counter/>
+      <TimeLine/>
     </>
   )
 }
