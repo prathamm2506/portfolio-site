@@ -50,7 +50,7 @@ header{
 .me{
     background: linear-gradient(var(--color-primary),transparent);
     width: 352px;
-    height: 480px;
+    height: 100%;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
