@@ -18,8 +18,8 @@ const App = () => {
       <Header/>
       <Nav/>
       {/* <About/> */}
-      <About2/>
-      <Experience/>
+      {/* <About2/> */}
+      {/* <Experience/> */}
       {/* <Services/> */}
       <Portfolio/>
       {/* <Testimonial/> */}

@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_v6kgaki', 'template_37gtb6n', form.current, 'e_4GZJ4zkAZXmNdwg')
+    emailjs.sendForm('service_nk9nrgx', 'template_rs25m5v', form.current, '_JN_aT6Na3UuGoxd_')
     e.target.reset()
   };
   return (
@@ -26,7 +26,7 @@ const Contact = () => {
           <FiMail className='contact__option-icon'/>
             <h4>Email</h4>
             {/* <h5>Pratham Matkar</h5> */}
-            <a href="mailto:prathammatkar2506@gmail.com" target="_blank">Send a Message</a>
+            <a href="mailto:design2deploy.2025@gmail.com" target="_blank">Send a Message</a>
           </article>
 
           <article className="contact__option">
